@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Pacifico';
+  src: local("Pacifico"), local("Pacifico-Regular"), url("fonts/Pacifico.ttf"); }
+@font-face {
+  font-family: 'Raleway';
+  src: local("Raleway"), local("Raleway-Regular"), url("fonts/Raleway.ttf"); }
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body .navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s; }
+  body .navbar-default .nav li a:hover {
+    color: #4F2213; }
+  body .navbar-default .nav li a:focus {
+    color: #4F2213; }
+  body .navbar-default .navbar-header .navbar-brand {
+    color: #4F2213;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700; }
+body header {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../images/index_banner.jpg");
+  text-align: center;
+  color: white; }
+  body header .header-content {
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    width: 100%; }
+    body header .header-content .header-content-inner {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 30px; }
+      body header .header-content .header-content-inner #homeHeading {
+        font-size: 2em; }
+      body header .header-content .header-content-inner h1 {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 30px; }
+      body header .header-content .header-content-inner hr {
+        margin: 30px auto;
+        max-width: 300px; }
+      body header .header-content .header-content-inner p {
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 16px;
+        margin-bottom: 50px;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px; }
+      body header .header-content .header-content-inner .btn-primary {
+        background: #0099cc;
+        color: #ffffff; }
+body .section1 {
+  width: 100%; }
+  body .section1 .section1inner {
+    overflow: hidden; }
+    body .section1 .section1inner .s1words {
+      width: 45%;
+      float: left;
+      padding: 70px; }
+      body .section1 .section1inner .s1words h1 {
+        font-family: "Pacifico"; }
+      body .section1 .section1inner .s1words p {
+        font-size: 1.5em;
+        font-weight: 300; }
+    body .section1 .section1inner .s1image {
+      width: 55%;
+      float: right; }
+body .section2 .section2-content {
+  overflow: hidden;
+  text-align: center;
+  padding: 70px 0px 70px 0px;
+  background-color: #3498DB; }
+  body .section2 .section2-content .circle {
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 150px;
+    float: left;
+    margin: 70px 0px 40px 110px; }
+  body .section2 .section2-content .circle1 {
+    background-image: url("../images/timeline.png"); }
+  body .section2 .section2-content .circle2 {
+    background-image: url("../images/multiAddresses.png"); }
+  body .section2 .section2-content .circle3 {
+    background-image: url("../images/coffSchedule.png"); }
+  body .section2 .section2-content h3 {
+    float: left; }
+body .section3 {
+  width: 100%; }
+  body .section3 .section3inner {
+    overflow: hidden; }
+    body .section3 .section3inner .s3words {
+      width: 45%;
+      float: right;
+      padding: 70px; }
+      body .section3 .section3inner .s3words h1 {
+        font-family: "Pacifico"; }
+      body .section3 .section3inner .s3words p {
+        font-size: 1.5em;
+        font-weight: 300; }
+    body .section3 .section3inner .s3image {
+      width: 55%;
+      float: left; }
+body .section4 {
+  text-align: center;
+  padding: 20px; }
+  body .section4 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    items-align: center;
+    height: 440px;
+    text-align: center; }
+  body .section4 .s4img {
+    margin: 20px 50px 0px 50px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer; }
+body .section5 {
+  text-align: center;
+  background-color: #3498DB; }
+  body .section5 .container {
+    display: flex;
+    flex-direction: row;
+    items-align: center;
+    justify-content: center;
+    height: 500px;
+    text-align: center; }
+    body .section5 .container .s5box {
+      width: 50%;
+      text-align: center;
+      margin: 30px;
+      background-color: #3498DB; }
+body .done {
+  width: 100%;
+  height: 100px;
+  background-color: #34495E; }
+  body .done .copyright {
+    color: white;
+    font-size: 2em;
+    float: left;
+    margin: 30px 30px 30px 100px; }
+  body .done .group {
+    color: white;
+    font-size: 2em;
+    float: right;
+    margin: 30px 100px 30px 30px; }
+
+/*	.header {
+		width: 100%;
+		height: 120%;
+		background-image: url(../images/index_banner.jpg);
+		background-size: 100% 100%;
+		position: absolute;
+		#welcome {
+			align: center;
+			text-align: center;
+			font-size: 2em; //Font chß╗» to gß║Ñp 2 lß║ºn
+			#w_1{
+				font-family: "Pacifico";
+				color: $yellow;
+				font-size: 2em; // 4 em
+				margin-top: 120px;
+				/*A l├ám t├¡p nh├⌐ tß╗½ em, sao c├íi h├¼nh to qua, n├úy a l├ám theo kiß╗âu background color ma hinh no bi vay ak n├│ bß╗ï mß║Ñt kh├║c d╞░ß╗¢i rß╗ôi oh chß╗¥ e*/
+		/*	}
+		/*	#w_2{
+				margin-top: -60px;
+				font-family: "Pacifico";
+				color: white;
+				font-size: 1.5em;
+			}
+			#w_3{
+				font-size: 3em;
+				font-family: "Raleway";
+				color: $red;
+				margin-top: -60px;
+			}
+			#w_4{
+				font-size: 1em;
+				font-family: "Pacifico";
+				color: white;
+				margin-top: -90px;
+				&::before{
+					content: '';
+					width: 120px;
+					height: 2px;
+					background: white;
+					position: absolute;
+					margin-top: 30px;
+					margin-left: -140px;
+				}
+				&::after{
+					content: '';
+					width: 120px;
+					height: 2px;
+					background: white;
+					position: absolute;
+					margin-top: 30px;
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+
+*/
+
+/*# sourceMappingURL=style.css.map */
